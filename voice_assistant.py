@@ -29,7 +29,7 @@ def text_to_speech(x):
     engine.say(x)
     engine.runAndWait()
 if __name__=="__main__":
-   #if speech_to_text().lower()=='hello rinku':
+   if speech_to_text().lower()=='hello rinku':
      while True:
         data='hello i am activated, how can i help you'
         text_to_speech(data)
@@ -62,6 +62,6 @@ if __name__=="__main__":
              data4='thank you bye bye'
              text_to_speech(data4)
              break
-   # else:         
-       # print('plz say "hello rinku"to start')
+     else:         
+        print('plz say "hello rinku"to start')
     
